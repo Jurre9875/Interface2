@@ -1,4 +1,4 @@
-import {add, substract} from './math.js';
+import math from './math.js'
 
-console.log(add(5, 3));
-console.log(substract(4, 6))
+console.log(math.add(5, 3))
+console.log(math.substract(10, 4)) 
